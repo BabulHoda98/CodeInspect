@@ -12,10 +12,10 @@ import Map from "../../Components/Map";
 const MainHome = () => (
   <>
     <Home />
-    {/* <Services /> */}
-    {/* <Features /> */}
+    <Services />
+    <Features />
     <TechStack />
-    <Events />
+    {/* <Events /> */}
     {/* <Review /> */}
     <FAQ />
     <DataForm />

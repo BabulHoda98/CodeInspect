@@ -6,18 +6,27 @@ const frontendTech = [
   { name: 'Cypress', icon: '/tech/Cypress.svg' },
   { name: 'Playwright', icon: '/tech/Playwrite.svg' },
   { name: 'Appium', icon: '/tech/appium-svgrepo-com.svg' },
+  { name: 'TestCafe', icon: '/tech/TestCafe.png' },
+  { name: 'Katalon Studio', icon: '/tech/Katalon-com.svg' },
+  // { name: 'Ranorex', icon: '/tech/appium-svgrepo-com.svg' },
 ];
 
 const backendTech = [
   { name: 'JMeter', icon: '/tech/jmeter.svg' },
   { name: 'Gatling', icon: '/tech/Gatling.svg' },
   { name: 'Jira', icon: '/tech/Jira.svg' },
+  { name: 'Locust', icon: '/tech/Jira.svg' },
+  { name: 'NeoLoad', icon: '/tech/Jira.svg' },
+  { name: 'NeoLoad', icon: '/tech/Jira.svg' },
 ];
 
 const mobileTech = [
   { name: 'JUnit', icon: '/tech/JUnit.svg' },
   { name: 'Jest', icon: '/tech/Jest.svg' },
   { name: 'pytest', icon: '/tech/pytest.svg' },
+  { name: 'Jasmine', icon: '/tech/pytest.svg' },
+  { name: 'PHPUnit', icon: '/tech/pytest.svg' },
+  { name: 'RSpec', icon: '/tech/pytest.svg' },
 ];
 
 const databaseTech = [
@@ -52,7 +61,7 @@ const fadeInUp = {
 
 const TechStack = () => {
   return (
-    <div className="relative bg-gradient-to-r from-blue-400 via-purple-400 text-white py-10 md:py-24 px-8">
+    <div className="relative bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white py-10 md:py-24 px-8">
       <div className="max-w-7xl mx-auto">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
@@ -66,7 +75,7 @@ const TechStack = () => {
         <div className="w-24 h-1 mx-auto mb-10 md:mb-24 mt-2 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-500 animate-gradientMove rounded-full"></div>
 
         {/* Frontend Technologies */}
-        <div className="mb-24">
+        <div className="mb-6">
           <motion.h2
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -77,7 +86,7 @@ const TechStack = () => {
             Functional Testing Technologies
             <div className="absolute -bottom-2 left-0 w-1/3 h-1 bg-gradient-to-r from-purple-500 to-transparent"></div>
           </motion.h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 ">
             {frontendTech.map((tech, index) => {
               const gradient = gradientStyles[index % gradientStyles.length];
               return (
@@ -111,7 +120,7 @@ const TechStack = () => {
             Performance Testing Technologies
             <div className="absolute -bottom-2 left-0 w-1/3 h-1 bg-gradient-to-r from-purple-500 to-transparent"></div>
           </motion.h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 ">
             {backendTech.map((tech, index) => {
               const style = gradientStyles[index % gradientStyles.length];
               return (

@@ -32,7 +32,7 @@ const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   return (
-    <div className="bg-gradient-to-r from-blue-400 via-purple-400 text-white py-5 md:py-24 px-10 relative z-10">
+    <div className="bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white py-5 md:py-24 px-10 relative z-10">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           

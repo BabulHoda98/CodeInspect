@@ -1,23 +1,29 @@
 import React from 'react';
-import image21 from '../assets/Events/image21.jpg';
-import image23 from '../assets/Events/image23.png';
-import image22 from '../assets/Events/image22.png';
+// import image21 from '../assets/Events/image21.jpg';
+// import image23 from '../assets/Events/image23.png';
+// import image22 from '../assets/Events/image22.png';
+import image1 from '../assets/Events/image1.webp';
+import image2 from '../assets/Events/image2.jpg';
+import image3 from '../assets/Events/image3.jpg';
 import { motion } from "framer-motion";
 
 const events = [
   {
     date: "Feb 4, 2025",
-    image: image22,
+    // image: image22,
+    image: image1,
     desc: "Unlock the full potential of your website with expert-led optimization sessions."
   },
   {
     date: "March 19, 2025",
-    image: image21,
+    // image: image21,
+    image: image2,
     desc: "Automation testing accelerates release cycles by executing 1,000 tests in minutes—something impossible manually"
   },
   {
     date: "March 22, 2025",
-    image: image23,
+    // image: image23,
+    image: image3,
     desc: "Manual testing tells you if the software works. Automation tells you if it keeps working."
   }
 ];
@@ -30,7 +36,7 @@ const getInitialPosition = (index) => {
 
 const Events = () => {
   return (
-    <section id="events" className="w-full py-10 md:py-32 bg-gradient-to-r from-blue-400 via-purple-400 text-white relative select-none">
+    <section id="events" className="w-full py-10 md:py-32 bg-gradient-to-r from-blue-900/90 to-purple-900/90 text-white relative select-none">
       <div className="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-[#311b3f] to-transparent z-0"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6">

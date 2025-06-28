@@ -12,7 +12,7 @@
   "dependencies": {
     "@react-three/drei": "^10.0.7",
     "@react-three/fiber": "^9.1.2",
-    "@tailwindcss/vite": "^4.1.5",
+    "@tailwindcss/vite": "^4.1.11",
     "framer-motion": "^12.9.4",
     "gsap": "^3.13.0",
     "react": "^19.0.0",
@@ -21,7 +21,7 @@
     "react-router-dom": "^7.5.3",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
-    "tailwindcss": "^4.1.5",
+    "tailwindcss": "^4.1.11",
     "three": "^0.176.0",
     "typeface-luckiest-guy": "^1.1.13"
   },

@@ -3,12 +3,12 @@ import React from 'react';
 const DataForm = () => {
   return (
     <>
-      <div id='contact' className="w-full relative  bg-gradient-to-r from-blue-400 via-purple-400 py-12 px-8">
+      <div id='contact' className="w-full relative  bg-gradient-to-r from-blue-900/90 to-purple-900/90 py-12 px-8">
         <div className='flex items-center justify-center'>
           <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8">
             
             {/* Left Gradient Panel */}
-            <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-gradient-to-r from-[#fb09eb] via-[#f437e7] to-[#f437e7] rounded-t-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-bl-3xl md:rounded-tl-none">
+            <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-gradient-to-r from-[#942fa8] via-[#9119a1] to-[#942fa8] rounded-t-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-bl-3xl md:rounded-tl-none">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
                 Get useful information now!
               </h1>
@@ -18,7 +18,7 @@ const DataForm = () => {
             </div>
 
             {/* Right Form Panel */}
-            <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-blue-800 rounded-3xl shadow-2xl z-10 -mt-8 md:mt-0">
+            <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-purple-700 rounded-3xl shadow-2xl z-10 -mt-8 md:mt-0">
               <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white mb-6 sm:mb-8">
                 <span className="text-white/80">Tell us </span>
                 <span className="text-white">about the task</span>
