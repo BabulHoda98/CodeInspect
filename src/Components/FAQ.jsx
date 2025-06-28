@@ -3,28 +3,28 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const faqData = [
   {
-    question: "What services does a web design company offer?",
-    answer: "A web design company typically provides services such as website design, website development, UI/UX design, branding, SEO optimization, e-commerce solutions, and website maintenance. At Pigopi, we offer comprehensive digital solutions tailored to your specific needs."
+    question: "What services does an automation testing company offer?",
+    answer: "An automation testing company typically provides,  Test strategy and framework design, Test script development and execution, Integration with CI/CD pipelines, Performance and load testing, Test data generation and management, Maintenance of existing automated test suites "
+},
+  {
+    question: "How much does it cost to hire an automation testing company?",
+    answer: "The cost varies based on : Project complexity and duration, Number of platforms supported (e.g., web, mobile, APIs), Tools used (open-source vs. commercial), Level of customization and integration"
   },
   {
-    question: "How much does it cost to hire a web design company?",
-    answer: "The cost varies depending on project complexity, features required, and scope. We offer flexible pricing packages starting from basic websites to full-scale enterprise solutions. Contact us for a customized quote based on your requirements."
+    question: "How long does it take to implement automation testing?",
+    answer: "In general, for most mid-sized applications, a reliable automation suite can be built in 2–3 months. However, scaling and optimizing takes time and continuous effort."
   },
   {
-    question: "How long does it take to build a website?",
-    answer: "Website development typically takes 4-12 weeks, depending on complexity and requirements. A simple website might take 4-6 weeks, while complex e-commerce sites can take 8-12 weeks or more. We provide detailed timelines during project planning."
+    question: "What should I look for when choosing an automation testing company?",
+    answer: "Look for: Expertise in the tools and technologies relevant to your stack, Proven track record with similar projects, Ability to integrate into your existing DevOps/CI-CD pipelines, Transparency in reporting and communication, Flexibility in adapting to changes and evolving requirements, Post-deployment support and script maintenance"
   },
   {
-    question: "What should I look for when choosing a web design company?",
-    answer: "Look for experience, portfolio quality, technical expertise, communication style, client testimonials, and post-launch support. Pigopi offers all these qualities along with transparent communication and dedicated project management."
+    question: "Do automation testing companies offer ongoing support and maintenance?",
+    answer: "Yes, most reputable companies offer: Regular updates to test scripts when the application changes, Regression test execution after code deployments, Troubleshooting flaky or broken tests, Ongoing optimization of test performance."
   },
   {
-    question: "Do web design companies offer ongoing support and maintenance?",
-    answer: "Yes, we provide comprehensive maintenance packages including regular updates, security monitoring, performance optimization, and technical support to ensure your website runs smoothly after launch."
-  },
-  {
-    question: "Can a web design company improve my website's SEO?",
-    answer: "Absolutely! We implement SEO best practices during development, including optimized code structure, mobile responsiveness, fast loading times, and proper meta tags. We also offer ongoing SEO services for continued improvement."
+    question: "Can an automation testing company help improve product quality and reliability?",
+    answer: "Absolutely! Automation: Catches regressions quickly and consistently, Enables faster and safer deployments, Increases test coverage, Reduces human error from manual testing, Identifies performance bottlenecks early"
   }
 ];
 

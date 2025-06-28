@@ -6,27 +6,45 @@ const frontendTech = [
   { name: 'Cypress', icon: '/tech/Cypress.svg' },
   { name: 'Playwright', icon: '/tech/Playwrite.svg' },
   { name: 'Appium', icon: '/tech/appium-svgrepo-com.svg' },
+<<<<<<< HEAD
   { name: 'TestCafe', icon: '/tech/TestCafe.png' },
   { name: 'Katalon Studio', icon: '/tech/Katalon-com.svg' },
   // { name: 'Ranorex', icon: '/tech/appium-svgrepo-com.svg' },
+=======
+  { name: 'Postman', icon: '/tech/postman-icon-svgrepo-com.svg'},
+  { name: 'Ranorex', icon: '/tech/Cypress.svg'},
+>>>>>>> 8432997fab5d85ba0d6f4be7a161f113a4d2f425
 ];
 
 const backendTech = [
   { name: 'JMeter', icon: '/tech/jmeter.svg' },
   { name: 'Gatling', icon: '/tech/Gatling.svg' },
   { name: 'Jira', icon: '/tech/Jira.svg' },
+<<<<<<< HEAD
   { name: 'Locust', icon: '/tech/Jira.svg' },
   { name: 'NeoLoad', icon: '/tech/Jira.svg' },
   { name: 'NeoLoad', icon: '/tech/Jira.svg' },
+=======
+  { name: 'k6', icon: '/tech/K6_idFWmVoXOM_1.svg'},
+  { name: 'Locust', icon: '/tech/Jira.svg'},
+  { name: 'BlazeMeter', icon: '/tech/blazemeter-svgrepo-com.svg'},
+>>>>>>> 8432997fab5d85ba0d6f4be7a161f113a4d2f425
 ];
 
 const mobileTech = [
   { name: 'JUnit', icon: '/tech/JUnit.svg' },
   { name: 'Jest', icon: '/tech/Jest.svg' },
   { name: 'pytest', icon: '/tech/pytest.svg' },
+<<<<<<< HEAD
   { name: 'Jasmine', icon: '/tech/pytest.svg' },
   { name: 'PHPUnit', icon: '/tech/pytest.svg' },
   { name: 'RSpec', icon: '/tech/pytest.svg' },
+=======
+  { name: 'Jenkins', icon: '/tech/jenkins-svgrepo-com.svg'},
+  { name: 'xUnit', icon: '/tech/'},
+  { name: 'Mocha', icon: '/tech/mocha-svgrepo-com.svg'},
+
+>>>>>>> 8432997fab5d85ba0d6f4be7a161f113a4d2f425
 ];
 
 const databaseTech = [

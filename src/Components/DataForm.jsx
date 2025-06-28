@@ -1,4 +1,9 @@
 import React from 'react';
+import ContactForm from './Contact';
+
+
+
+
 
 const DataForm = () => {
   return (
@@ -8,17 +13,28 @@ const DataForm = () => {
           <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8">
             
             {/* Left Gradient Panel */}
+<<<<<<< HEAD
             <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-gradient-to-r from-[#942fa8] via-[#9119a1] to-[#942fa8] rounded-t-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-bl-3xl md:rounded-tl-none">
+=======
+            <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-blue-300 rounded-t-3xl md:rounded-tr-3xl md:rounded-br-3xl md:rounded-bl-3xl md:rounded-tl-none">
+>>>>>>> 8432997fab5d85ba0d6f4be7a161f113a4d2f425
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
-                Get useful information now!
+                Testing: The Silent Guardian of Software Quality
               </h1>
               <p className="text-base sm:text-2xl font-bold text-black">
+                In the race to innovate, testing is the disciplined pacekeeper—preventing speed from compromising quality.
                 If you can't find a direct contact within the app or on the website, try reaching out via email.
               </p>
             </div>
 
             {/* Right Form Panel */}
+<<<<<<< HEAD
             <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-purple-700 rounded-3xl shadow-2xl z-10 -mt-8 md:mt-0">
+=======
+            {/* <div className="w-full md:w-1/2 p-6 sm:p-8 md:p-16 bg-blue-800 rounded-3xl shadow-2xl z-10 -mt-8 md:mt-0">
+
+                 Your content here *
+>>>>>>> 8432997fab5d85ba0d6f4be7a161f113a4d2f425
               <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white mb-6 sm:mb-8">
                 <span className="text-white/80">Tell us </span>
                 <span className="text-white">about the task</span>
@@ -63,7 +79,10 @@ const DataForm = () => {
                   Send
                 </button>
               </form>
-            </div>
+            </div> */}
+
+              <ContactForm/>
+
           </div>
         </div>
 
